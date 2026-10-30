@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pebble · Privacy policy</title>
+<meta name="description" content="How the Pebble Chrome extension handles your data: everything stays on your device.">
+<style>
+  :root {
+    --bg: #F7F1E3; --card: #FFFBF2; --ink: #2B2A26; --muted: #5F5A4E; --line: #E3D8C0; --accent: #2F5D50;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1C2421; --card: #26302B; --ink: #F2EBDD; --muted: #B5BDB3; --line: #3A4740; --accent: #A9C5A0; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header svg { flex: none; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(30px, 6vw, 40px); line-height: 1.1; margin: 0; }
+  .updated { color: var(--muted); font-size: 15px; margin: 0 0 28px; }
+  .lead { font-size: 19px; margin: 0 0 28px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px 22px; margin-bottom: 16px; }
+  h2 { font-size: 18px; margin: 0 0 8px; color: var(--accent); }
+  p, ul { margin: 0; }
+  ul { padding-left: 20px; }
+  li + li { margin-top: 6px; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg width="56" height="56" viewBox="0 0 120 120" aria-hidden="true">
+      <path d="M60 38 Q56 25 64 16" fill="none" stroke="#2B2A26" stroke-width="3" stroke-linecap="round"/>
+      <path d="M64 16 Q76 3 89 10 Q78 25 64 16 Z" fill="#8DBF7F" stroke="#2B2A26" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M62 21 Q50 9 39 15 Q49 28 62 21 Z" fill="#8DBF7F" stroke="#2B2A26" stroke-width="2.5" stroke-linejoin="round"/>
+      <ellipse cx="48" cy="106" rx="8.5" ry="5.5" fill="#E8B04B" stroke="#2B2A26" stroke-width="2.5"/>
+      <ellipse cx="72" cy="106" rx="8.5" ry="5.5" fill="#E8B04B" stroke="#2B2A26" stroke-width="2.5"/>
+      <path d="M60 34 C86 34 99 58 99 80 C99 98 83 107 60 107 C37 107 21 98 21 80 C21 58 34 34 60 34 Z" fill="#E8B04B" stroke="#2B2A26" stroke-width="2.5"/>
+      <ellipse cx="34" cy="86" rx="7.5" ry="4.5" fill="#FF8FA3" opacity="0.55"/>
+      <ellipse cx="86" cy="86" rx="7.5" ry="4.5" fill="#FF8FA3" opacity="0.55"/>
+      <ellipse cx="45" cy="72" rx="9" ry="11" fill="#2B2A26"/><ellipse cx="75" cy="72" rx="9" ry="11" fill="#2B2A26"/>
+      <circle cx="48.5" cy="67.5" r="3.6" fill="#fff"/><circle cx="78.5" cy="67.5" r="3.6" fill="#fff"/>
+      <path d="M55 85 Q57.5 88.5 60 85 Q62.5 88.5 65 85" fill="none" stroke="#2B2A26" stroke-width="2.2" stroke-linecap="round"/>
+    </svg>
+    <h1>Pebble privacy policy</h1>
+  </header>
+  <p class="updated">Last updated: October 14, 2026</p>
+  <p class="lead">Pebble is a Chrome extension that shows a small animated pet on the pages you visit. Everything it keeps stays on your device. It sends nothing to any server.</p>
+
+  <section>
+    <h2>What it stores</h2>
+    <p>Everything stays in your browser, in Chrome's extension storage on your device:</p>
+    <ul>
+      <li>the name you give yourself and the name you give the pet</li>
+      <li>the pet's look (color, accessory, skin) and which skins you have unlocked</li>
+      <li>which character you picked (Classic, Vader, Spider or Bat)</li>
+      <li>your water reminder settings (on or off, how often, between which times, visits + water or water only) and how many glasses you marked as drunk today</li>
+      <li>your settings: visit frequency, quiet mode, "Say hi sometimes", Cat person / Dog person, snooze time, and sites you turned it off on</li>
+      <li>the pet's personality (traits such as lazy or lively, a favorite spot) and how relaxed it has become around you after petting</li>
+      <li>which days you petted the pet (three different days unlock the Berry skin)</li>
+      <li>the last 20 visits, so the pet doesn't repeat itself</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What it does not do</h2>
+    <ul>
+      <li>It does not read, collect or send the content of the pages you visit.</li>
+      <li>It does not track your browsing history. It only checks the current tab's web address to see whether you turned the pet off on that site.</li>
+      <li>It sends nothing to any server. Pebble has no server.</li>
+      <li>Sharing a card happens only when you press Share, Copy link or Save image, and goes only where you choose.</li>
+      <li>The "Buy me a coffee" button is a plain link to buymeacoffee.com; nothing is sent until you choose to open it.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why it needs access to websites</h2>
+    <p>The pet has to be drawn on the page you are looking at, so the extension runs on http and https pages. It adds its own drawing layer and never changes or reads the page itself.</p>
+  </section>
+
+  <section>
+    <h2>Removing your data</h2>
+    <p>Uninstalling the extension deletes everything it stored.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></p>
+  </section>
+
+  <footer><a href="{{SITE_URL}}">← Pebble</a> · a tiny browsing companion for Chrome</footer>
+</main>
+</body>
+</html>

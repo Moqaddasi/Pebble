@@ -1,0 +1,27 @@
+{
+  "name": "pebble",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A tiny round friend who drops by while you browse.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "zip": "npm run build && node scripts/zip.mjs",
+    "site": "node scripts/site.mjs",
+    "e2e": "node scripts/build.mjs --test && node scripts/e2e.mjs && npm run build"
+  },
+  "devDependencies": {
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/nunito": "^5.3.0",
+    "@fontsource/young-serif": "^5.3.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/chrome": "^0.3.5",
+    "esbuild": "^0.28.2",
+    "playwright": "^1.64.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  }
+}
